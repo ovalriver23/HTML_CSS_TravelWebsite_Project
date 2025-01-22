@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Be+Vietnam+Pro:wght@300&family=Berkshire+Swash&family=El+Messiri&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.page4_back{
+    background-color: #efefef;
+}
+.page4{
+    width: 80%;
+    margin: 0% 10%;
+    padding: 2% 0;
+}
+.page4_text p{
+text-align: center;
+}
+.page4_text h1{
+    font-family: 'Be Vietnam Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 38px;
+line-height: 100%;
+color: #3BACB6;
+text-align: center;
+}
+.first_hotel{
+    display: flex;
+    margin-top: 5%;
+}
+.first_hotel_text button{
+    background-color: #3BACB6;
+    border: none;
+}
+.first_hotel_text h3{
+    font-family: 'Be Vietnam Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 100%;
+color: #000000;
+margin-bottom: 2%;
+}
+.first_hotel_text span{
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 100%;
+    color: gray;
+    margin-bottom: 5%;
+}
+.first_hotel_text p{
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    color: gray;
+}
+.first_hotel .main_img{
+    width: 50%;
+    margin-right: 1%;
+}
+.stars{
+    width: 18%;
+}
+.location{
+    margin-left: 5%;
+}
+.second_hotel ul,
+.second_hotel li{
+    padding:0;
+    margin-top: 1%;
+    list-style-type: none;
+    display: flex;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    justify-content: space-between;
+}
+.second_hotel li{
+    width: 50%;
+    position: relative;
+    overflow: hidden;
+    }
+.second_hotel img{
+    display: block;
+    max-width: 100%;
+    box-sizing: border-box;
+}

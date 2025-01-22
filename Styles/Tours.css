@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Be+Vietnam+Pro:wght@300&family=Berkshire+Swash&family=El+Messiri&display=swap');
+*{
+    padding: 0%;
+    margin: 0;
+}
+.logo h2 a{
+    text-decoration: none;
+    color: black;
+}
+
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    background-color: #EFEEEE;
+}
+header{
+    width: 70%;
+    margin: 2% 15%;
+    margin-bottom: 2.5%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
+}
+header nav li{
+    list-style-type: none;
+    color:#333333;
+    font-family: 'El Messiri';
+    background-color: none;
+    font-size: 18px;
+    margin-top: 3.5%;
+    font-weight: 600;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
+.logo h2{
+    font-size: 25px;
+    font-family: 'El Messiri' ;
+    font-weight: 300;
+    margin-top: 8%;
+    color: #333333;
+    font-weight: 600;
+}
+span hr{
+    width: 73%;
+    margin: 0 13.5%;
+}
+main{
+    width: 90%;
+    margin: 4% 5% 4% 5%;
+}
+main h1{
+    text-align: center;
+    font-family: 'Aclonica';
+font-style: normal;
+font-weight: 200;
+font-size: 60px;
+line-height: 100%;
+color: #000000;
+}
+.first_line ul,
+.first_line li{
+    padding:0;
+    margin: 2% 1% 1% 1%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+.first_line li{
+width: 48%;
+position: relative;
+overflow: hidden;
+}
+.first_line img{
+    display: block;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+.des{
+    position: absolute;
+    font-size: 35px;
+    font-weight: 400;
+     font-family: 'Be Vietnam Pro';
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: rgba(0,0,0,0.5 );
+    opacity: 0;
+    padding-top: 5%;
+    padding-left: 5%;
+    transition: all .5s;
+    border-bottom-color: blue;
+}
+.first_line li:hover .des{
+    display: block;
+    opacity: 1;
+}
+.second_line ul,
+.second_line li{
+    padding:0;
+    margin: 2% 1% 1% 1%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+.second_line li{
+width: 48%;
+position: relative;
+overflow: hidden;
+}
+.second_line img{
+    display: block;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+.des{
+    position: absolute;
+    font-size: 35px;
+    font-weight: 400;
+    font-family: 'Be Vietnam Pro';
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: rgba(0,0,0,0.5 );
+    opacity: 0;
+    padding-top: 5%;
+    padding-left: 5%;
+    transition: all .5s;
+    border-bottom-color: blue;
+}
+.second_line li:hover .des{
+    display: block;
+    opacity: 1;
+}
+.third_line ul,
+.third_line li{
+    padding:0;
+    margin: 2% 1% 1% 1%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+.third_line li{
+width: 48%;
+position: relative;
+overflow: hidden;
+}
+.third_line img{
+    display: block;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+.des{
+    position: absolute;
+    font-size: 35px;
+    font-weight: 400;
+    font-family: 'Be Vietnam Pro';
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: rgba(0,0,0,0.5 );
+    opacity: 0;
+    padding-top: 5%;
+    padding-left: 5%;
+    transition: all .5s;
+    border-bottom-color: blue;
+}
+.third_line li:hover .des{
+    display: block;
+    opacity: 1;
+}
+.first_line a {
+    text-decoration: none;
+    color: white;
+}
+.second_line a{
+    text-decoration: none;
+    color: white;
+}
+.third_line a{
+    text-decoration: none;
+    color: white;
+}
+main h1{
+    animation-name: secondAnimation;
+    animation-duration: 5s;
+}
+@keyframes secondAnimation{
+    from{ margin-right: 15%;}
+}
+
